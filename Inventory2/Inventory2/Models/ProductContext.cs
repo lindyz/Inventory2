@@ -8,5 +8,6 @@ namespace Inventory2.Models
         }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<CartItem> ShoppingCartItems { get; set; }
     }
 }
