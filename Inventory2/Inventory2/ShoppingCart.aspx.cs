@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Inventory2.Models;
+using Inventory2.Logic;
 
 namespace Inventory2
 {
@@ -12,6 +14,12 @@ namespace Inventory2
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        public List<CartItem> GetShoppingCartItems()
+        {
+            ShoppingCartActions actions = new ShoppingCartActions();
+            return actions.GetCartItems();
         }
     }
 }
