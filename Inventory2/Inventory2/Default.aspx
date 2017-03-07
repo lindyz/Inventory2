@@ -2,6 +2,6 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
         <h1><%: Title %>.</h1>
-        <h2>The Store sells goods for the home.</h2>
-        <p class="lead">Major appliances to furniture, we have it all.</p>
+        <h2>Check out our sale categories for available items.</h2>
+        <p class="lead">New products added weekly, check back frequently.</p>
 </asp:Content>
