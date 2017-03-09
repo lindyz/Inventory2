@@ -50,9 +50,8 @@ namespace Inventory2.Models
                 new Product
                 {
                     ProductID = 1,
-                    ProductName = "Convertible Car",
-                    Description = "This convertible car is fast! The engine is powered by a neutrino based battery (not included)." +
-                                  "Power it up and let it go!",
+                    ProductName = "Stainless Steel Refrigerator",
+                    Description = "Stainless Steel with french doors, water dispenser in the door",
                     ImagePath="refer1.jpg",
                     UnitPrice = 22.50,
                     CategoryID = 1

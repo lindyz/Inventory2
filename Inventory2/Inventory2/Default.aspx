@@ -2,6 +2,6 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
         <h1><%: Title %>.</h1>
-        <h2>Check out our sale categories for available items.</h2>
-        <p class="lead">New products added weekly, check back frequently.</p>
+        <h2>Inventory of parts used for oil changes.</h2>
+        <p class="lead">Check inventory weekly and order more as needed.</p>
 </asp:Content>
