@@ -17,68 +17,69 @@ namespace Inventory2.Models
                 new Category
                 {
                     CategoryID = 1,
-                    CategoryName = "Appliances"
+                    CategoryName = "Engine"
                 },
                 new Category
                 {
                     CategoryID = 2,
-                    CategoryName = "Consignment"
+                    CategoryName = "Body"
                 },
                 new Category
                 {
                     CategoryID = 3,
-                    CategoryName = "Trucks"
+                    CategoryName = "Interior"
                 },
                 new Category
                 {
                     CategoryID = 4,
-                    CategoryName = "Vehicles"
+                    CategoryName = "Transmission"
                 },
                 new Category
                 {
                     CategoryID = 5,
-                    CategoryName = "Equipment"
+                    CategoryName = "Whole Truck"
                 },
             };
 
             return categories;
         }
 
+//seed data
         private static List<Product> GetProducts()
         {
             var products = new List<Product> {
                 new Product
                 {
                     ProductID = 1,
-                    ProductName = "Stainless Steel Refrigerator",
-                    Description = "Stainless Steel with french doors, water dispenser in the door",
+                    ProductName = "Flywheel Housing for Cummins",
+                    Description = "Drilled for straight up",
                     ImagePath="refer1.jpg",
-                    UnitPrice = 22.50,
+                    UnitPrice = 150.00,
                     CategoryID = 1
                },
                 new Product
                 {
                     ProductID = 2,
-                    ProductName = "Old-time Car",
-                    Description = "There's nothing old about this toy car, except it's looks. Compatible with other old toy cars.",
+                    ProductName = "1 7/8 Oil Filler Cap",
+                    Description = "Fits a Cat, has chain",
                     ImagePath="refer1.jpg",
-                    UnitPrice = 15.95,
+                    UnitPrice = 5.00,
                      CategoryID = 1
                },
                 new Product
                 {
                     ProductID = 3,
-                    ProductName = "Fast Car",
-                    Description = "Yes this car is fast, but it also floats in water.",
+                    ProductName = "AC Condenser",
+                    Description = "Fits a Mack",
                     ImagePath="refer1.jpg",
-                    UnitPrice = 32.99,
+                    UnitPrice = 50.00,
                     CategoryID = 1
                 },
                 new Product
                 {
                     ProductID = 4,
-                    ProductName = "Super Fast Car",
-                    Description = "Use this super fast car to entertain guests. Lights and doors work!",
+                    ProductName = "AC Condenser",
+                    Description = "Fits a Kenworth",
                     ImagePath="refer1.jpg",
                     UnitPrice = 8.95,
                     CategoryID = 1
@@ -86,45 +87,44 @@ namespace Inventory2.Models
                 new Product
                 {
                     ProductID = 5,
-                    ProductName = "Old Style Racer",
-                    Description = "This old style racer can fly (with user assistance). Gravity controls flight duration." +
-                                  "No batteries required.",
+                    ProductName = "Cat Turbo",
+                    Description = "Fits CAT.",
                     ImagePath="refer1.jpg",
-                    UnitPrice = 34.95,
+                    UnitPrice = 800.00,
                     CategoryID = 1
                 },
                 new Product
                 {
                     ProductID = 6,
-                    ProductName = "Ace Plane",
-                    Description = "Authentic airplane toy. Features realistic color and details.",
+                    ProductName = "Clearance Marker",
+                    Description = "2 diode LED.",
                     ImagePath="refer1.jpg",
-                    UnitPrice = 95.00,
+                    UnitPrice = 1.00,
                     CategoryID = 2
                 },
                 new Product
                 {
                     ProductID = 7,
-                    ProductName = "Glider",
-                    Description = "This fun glider is made from real balsa wood. Some assembly required.",
+                    ProductName = "Cab Light",
+                    Description = "36 LED.",
                     ImagePath="refer1.jpg",
-                    UnitPrice = 4.95,
+                    UnitPrice = 10.00,
                     CategoryID = 2
                 },
                 new Product
                 {
                     ProductID = 8,
-                    ProductName = "Paper Plane",
-                    Description = "This paper plane is like no other paper plane. Some folding required.",
+                    ProductName = "Tail Light",
+                    Description = "LED red with clear housing.",
                     ImagePath="refer1.jpg",
-                    UnitPrice = 2.95,
+                    UnitPrice = 8.00,
                     CategoryID = 2
                 },
                 new Product
                 {
                     ProductID = 9,
-                    ProductName = "Propeller Plane",
-                    Description = "Rubber band powered plane features two wheels.",
+                    ProductName = "Bezel",
+                    Description = "Chrome",
                     ImagePath="refer1.jpg",
                     UnitPrice = 32.95,
                     CategoryID = 2
@@ -132,17 +132,17 @@ namespace Inventory2.Models
                 new Product
                 {
                     ProductID = 10,
-                    ProductName = "Early Truck",
-                    Description = "This toy truck has a real gas powered engine. Requires regular tune ups.",
+                    ProductName = "Sleeper Cab Light",
+                    Description = "Three light, easy install",
                     ImagePath="refer1.jpg",
-                    UnitPrice = 15.00,
+                    UnitPrice = 25.00,
                     CategoryID = 3
                 },
                 new Product
                 {
                     ProductID = 11,
-                    ProductName = "Fire Truck",
-                    Description = "You will have endless fun with this one quarter sized fire truck.",
+                    ProductName = "Fuel Oil Sender",
+                    Description = "Sold individually",
                     ImagePath="refer1.jpg",
                     UnitPrice = 26.00,
                     CategoryID = 3
@@ -150,37 +150,35 @@ namespace Inventory2.Models
                 new Product
                 {
                     ProductID = 12,
-                    ProductName = "Big Truck",
-                    Description = "This fun toy truck can be used to tow other trucks that are not as big.",
+                    ProductName = "Dash Light Lenses",
+                    Description = "Assorted Colors",
                     ImagePath="refer1.jpg",
-                    UnitPrice = 29.00,
+                    UnitPrice = 1.00,
                     CategoryID = 3
                 },
                 new Product
                 {
                     ProductID = 13,
-                    ProductName = "Big Ship",
-                    Description = "Is it a boat or a ship. Let this floating vehicle decide by using its " +
-                                  "artifically intelligent computer brain!",
+                    ProductName = "Full Transmission",
+                    Description = "Freightliner Columbia",
                     ImagePath="refer1.jpg",
-                    UnitPrice = 95.00,
+                    UnitPrice = 1000.00,
                     CategoryID = 4
                 },
                 new Product
                 {
                     ProductID = 14,
-                    ProductName = "Paper Boat",
-                    Description = "Floating fun for all! This toy boat can be assembled in seconds. Floats for minutes!" +
-                                  "Some folding required.",
+                    ProductName = "Full Transmission",
+                    Description = "Volvo Diesel",
                     ImagePath="refer1.jpg",
-                    UnitPrice = 4.95,
+                    UnitPrice = 1000.00,
                     CategoryID = 4
                 },
                 new Product
                 {
                     ProductID = 15,
-                    ProductName = "Sail Boat",
-                    Description = "Put this fun toy sail boat in the water and let it go!",
+                    ProductName = "Full Transmission",
+                    Description = "Freightliner Colimbia",
                     ImagePath="refer1.jpg",
                     UnitPrice = 42.95,
                     CategoryID = 4
@@ -188,10 +186,10 @@ namespace Inventory2.Models
                 new Product
                 {
                     ProductID = 16,
-                    ProductName = "Rocket",
-                    Description = "This fun rocket will travel up to a height of 200 feet.",
+                    ProductName = "2005 Freightliner Columbia",
+                    Description = "For parts or restoration",
                     ImagePath="refer1.jpg",
-                    UnitPrice = 122.95,
+                    UnitPrice = 2500.00,
                     CategoryID = 5
                 }
             };

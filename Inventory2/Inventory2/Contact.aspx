@@ -4,14 +4,13 @@
     <h2><%: Title %>.</h2>
     <h3>Your contact page.</h3>
     <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
+        32 E 14th St<br />
+        New Albany IN 47150<br />
         <abbr title="Phone">P:</abbr>
-        425.555.0100
+        812-981-5400
     </address>
 
     <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+        <strong>Support:</strong>   <a href="mailto:TigerTruckLines@gmail.com">TigerTruckLines@gmail.com</a><br />
     </address>
 </asp:Content>

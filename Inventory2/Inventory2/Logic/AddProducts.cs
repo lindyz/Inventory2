@@ -10,6 +10,7 @@ namespace Inventory2.Logic
     {
         public bool AddProduct(string ProductName, string ProductDesc, string ProductPrice, string ProductCategory, string ProductImagePath)
         {
+            //product description
             var myProduct = new Product();
             myProduct.ProductName = ProductName;
             myProduct.Description = ProductDesc;

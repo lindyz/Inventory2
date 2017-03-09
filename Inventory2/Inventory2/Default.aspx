@@ -2,6 +2,6 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
         <h1><%: Title %>.</h1>
-        <h2>Inventory of parts used for oil changes.</h2>
-        <p class="lead">Check inventory weekly and order more as needed.</p>
+        <h2>Truck Parts for Sale.</h2>
+        <p class="lead">Junk trucks and parts available for late model trucks.</p>
 </asp:Content>

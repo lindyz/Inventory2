@@ -10,6 +10,7 @@
             <table>
                 <tr>
                     <td>
+                        <%--picture is not working, need to fix this--%>
                         <img src="/Catalog/Images/<%#:Item.ImagePath %>" style="border:solid; height:300px" alt="<%#:Item.ProductName %>"/>
                     </td>
                     <td>&nbsp;</td>  
