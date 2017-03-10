@@ -3,7 +3,7 @@ namespace Inventory2.Models
 {
     public class ProductContext : DbContext
     {
-        public ProductContext() : base("WingtipToys")
+        public ProductContext() : base("Inventory2")
         {
         }
         public DbSet<Category> Categories { get; set; }

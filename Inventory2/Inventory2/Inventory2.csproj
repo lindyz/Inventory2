@@ -172,26 +172,6 @@
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="AddToCart.aspx" />
     <Content Include="Admin\AdminPage.aspx" />
-    <Content Include="App_Data\aspnet-Inventory2-20170302071842.mdf" />
-    <Content Include="App_Data\aspnet-Inventory2-20170302071842_log.ldf">
-      <DependentUpon>aspnet-Inventory2-20170302071842.mdf</DependentUpon>
-    </Content>
-    <Content Include="App_Data\catalog\dishwashers-built_in_front_control.jpg" />
-    <Content Include="App_Data\catalog\dishwashers-built_in_top_control.jpg" />
-    <Content Include="App_Data\catalog\dishwashers-portable.jpg" />
-    <Content Include="App_Data\catalog\dishwashers-under_the_sink.jpg" />
-    <Content Include="App_Data\catalog\logo_ge_navy.png" />
-    <Content Include="App_Data\catalog\ranges-double-oven_ranges.jpg" />
-    <Content Include="App_Data\catalog\ranges-electric_ranges.jpg" />
-    <Content Include="App_Data\catalog\refer1.jpg" />
-    <Content Include="App_Data\catalog\refer2.jpg" />
-    <Content Include="App_Data\catalog\washer1.jpg" />
-    <Content Include="App_Data\catalog\washer2.jpg" />
-    <Content Include="App_Data\catalog\washers-stackable.jpg" />
-    <Content Include="App_Data\Inventory2.mdf" />
-    <Content Include="App_Data\Inventory2_log.ldf">
-      <DependentUpon>Inventory2.mdf</DependentUpon>
-    </Content>
     <Content Include="bin\Antlr3.Runtime.dll" />
     <Content Include="bin\Antlr3.Runtime.pdb" />
     <Content Include="bin\AspNet.ScriptManager.bootstrap.dll" />
